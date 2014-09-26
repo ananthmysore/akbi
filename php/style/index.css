@@ -1,0 +1,292 @@
+#menu{ 
+	width:250px; 
+	background: #083967; 
+	position:absolute; 
+	left: 0px;
+	height:350%;
+}
+#menu ul{
+	margin:0;
+	list-style:none;
+	float:left;
+	padding-left: 30px;
+	width:170px;
+}
+#menu ul li{
+	margin:0;
+	padding:0;
+	color:#ffffff;
+	font-size:0.85em;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+#menu ul li a{
+	color:#fff;
+	text-decoration:none;
+}
+#menu ul li a:hover,#menu ul li a.active,#menu ul li a.active{ color:#22bcb9;}
+#menu ul li.heading{ margin:0 0 5px 0;}
+#menu ul li.last{ margin:0 0 30px 0;}
+#menu ul li.heading.last{ margin:0 0 20px 0;}
+#menu ul li.heading{font-size:1.2em; font-family: 'serif'; font-weight:normal; padding-bottom: 5px;}
+#menu ul li.heading a{font-size:1em;}
+
+#closeMenu{
+	padding: 0 0 25px 0;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-bottom: 40px;
+	text-decoration:none;
+}
+#closeMenu p{
+	float: right;
+	color: #FFF;
+	font-size: 1.25em;
+	cursor: pointer;
+	margin-right: 15px;
+}
+#wrapper{ padding:0 10px;}
+
+#header{
+	width: 85%;
+	margin-left: 6em;
+	padding:10px 0 20px 0;
+	border-bottom:2px solid #083967;
+}
+#header h1{
+	margin:0 0px 0 ;
+	padding:0;
+	font-size:3.45em;
+	color:#083967;
+	font-family: serif;
+	font-weight:normal;
+	display:block;
+	text-align:center;
+}
+#header h1 span{
+	font-size:0.35em;
+	display:block;
+	padding-top:10px;
+	text-align:center;
+}
+#intro_bar {
+	width: 85%;
+	border-bottom: 2px solid #083967;
+	height: 16em;
+	margin-left: 6em;
+	float: left;
+	padding:0 0 0 0;
+}
+.About_Us_Mainpage {
+	width: 32%;
+	float: left;
+	min-height: 10em;
+}
+.About_Us_Mainpage a{
+	color:#083967;
+	text-decoration:none;
+}
+.About_Us_Mainpage a:hover{ color:#22bcb9;}
+
+.About_Us_Mainpage h2{
+	font-size: 1.5em;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+	margin-left: 2em;
+	font-weight: normal;
+}
+.About_Us_Mainpage p{
+	margin-left: 3em;
+	font-size: 1em;
+	font-weight: normal;
+	line-height:1.22em;
+}
+.middle{
+	width: 32%;
+	float: left;
+	min-height: 10em;
+}
+.middle a{
+	color: #083967;
+	text-decoration: none;
+	display: inline-block;
+}
+.middle a:hover{ color: #22bcb9; }
+.middle h2{
+	font-size: 1.5em;
+	margin-left: 5em;
+	padding-top: 1.5em;
+	padding-bottom:1.5em;
+}
+.middle p{
+	margin-left: 3em;
+	font-size: 1em;
+	line-height:1.22em;
+	font-weight: normal;
+}
+.last{
+	width: 32%;
+	float: left;
+	min-height: 10em;
+}
+.last a{
+	color: #083967;
+	text-decoration:none;
+	display: inline-block;
+}
+.last a:hover{ color: #22bcb9; }
+.last h2{
+	font-size: 1.5em;
+	margin-left: 5em;
+	padding-top: 1.5em;
+	padding-bottom:1.5em;
+}
+.last p{
+	margin-left: 3em;
+	font-size: 1em;
+	line-height:1.22em;
+	font-weight: normal;
+}
+#Content {
+	height: 120em;
+	float: left;
+	width: 90%;
+	margin-left: 1.5em;
+}
+#line1{
+	width: 98%;
+	height: 35em;
+}
+/*sakshi*/
+.sakshi #imageContainer{
+	float:left;
+	margin-left:2em;
+	min-height: 50%;
+}
+.sakshi a{
+	color: #083967;
+	text-decoration:none;
+	display: inline-block;
+}
+.sakshi a:hover{ color: #22bcb9; }
+.sakshi{
+	float:left;
+	width: 34%;
+	height: 35em;
+	margin-left:8em;
+	border-bottom: 2px solid #083967;
+	
+}
+.sakshi p{
+	margin-top: 8em;
+	margin-left: 1em;
+	font-size: 1em;
+	font-weight: normal;
+}
+/*samvada*/
+.samvada #imageContainer{
+	float:right;
+	margin-right:2em;
+	margin-top:4em;
+}
+.samvada a{
+	color: #083967;
+	text-decoration:none;
+	display: inline-block;
+}
+.samvada a:hover{ color: #22bcb9; }
+.samvada{
+	float:left;
+	width: 32%;
+	height: 35em;
+	margin-left:16em;
+	border-bottom: 3px solid #083967;
+	
+}
+.samvada h3{
+	margin-left:2em;
+	margin-top: 17em;
+	font-size:1.2em;
+	
+}
+.samvada p{
+	margin-top: 1em;
+	margin-left: 2em;
+	font-size: 1.em;
+	font-weight: normal;
+}
+#line2 {
+	width: 98%;
+	height: 36em;
+}
+/*sankramana*/
+.sankramana #imageContainer{
+	float:left;
+	height: 33em;
+	margin-top: 2em;
+	margin-left: 0;
+}
+.sankramana a{
+	color: #083967;
+	text-decoration:none;
+	display: inline-block;
+}
+.sankramana a:hover{ color: #22bcb9; }
+.sankramana{
+	float:left;
+	width: 32%;
+	height: 35em;
+	margin-left:8em;
+	border-bottom: 3px solid #083967;
+}
+.sankramana p{
+	margin-top: 8em;
+	margin-left: 1em;
+	font-size: 1em;
+	font-weight: normal;
+}
+/*GandhiBazaarPatrike*/
+.gbp #imageContainer{
+	float:right;
+	margin-left:3em;
+	margin-top:2em;
+}
+.gbp a{
+	color: #083967;
+	text-decoration:none;
+	display: inline-block;
+}
+.gbp a:hover{ color: #22bcb9; }
+.gbp{
+	float:left;
+	width: 32%;
+	height: 35em;
+	margin-left:16em;
+	border-bottom: 3px solid #083967;
+	
+}
+.gbp p{ 	 
+	color:#083967;
+	margin-top: 8em;
+	margin-left: 2em;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+
+	
+	
+	
+	
+	
+
+
+
+
+	
+
+
+
+
+
+
