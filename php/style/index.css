@@ -1,7 +1,7 @@
 #menu{ 
 	width:250px; 
 	background: #083967; 
-	position:absolute; 
+	position:fixed; 
 	left: 0px;
 	height:350%;
 }
@@ -9,7 +9,7 @@
 	margin:0;
 	list-style:none;
 	float:left;
-	padding-left: 30px;
+	padding-left: 2em;
 	width:170px;
 }
 #menu ul li{
@@ -26,13 +26,13 @@
 }
 #menu ul li a:hover,#menu ul li a.active,#menu ul li a.active{ color:#22bcb9;}
 #menu ul li.heading{ margin:0 0 5px 0;}
-#menu ul li.last{ margin:0 0 30px 0;}
-#menu ul li.heading.last{ margin:0 0 20px 0;}
+#menu ul li.last{ margin:0 0 1em 0;}
+#menu ul li.heading.last{ margin:0 0 1em 0;}
 #menu ul li.heading{font-size:1.2em; font-family: 'serif'; font-weight:normal; padding-bottom: 5px;}
 #menu ul li.heading a{font-size:1em;}
 
 #closeMenu{
-	padding: 0 0 25px 0;
+	padding: 0 0 1em 0;
 	margin-top: 20px;
 	margin-bottom: 30px;
 	padding-bottom: 40px;
@@ -72,103 +72,94 @@
 #intro_bar {
 	width: 85%;
 	border-bottom: 2px solid #083967;
-	height: 16em;
+	height: 15em;
 	margin-left: 6em;
 	float: left;
 	padding:0 0 0 0;
 }
-.About_Us_Mainpage {
-	width: 32%;
-	float: left;
-	min-height: 10em;
+#intro_bar a:hover{ color:#22bcb9; }
+#intro_bar h2 {
+	font-size: 1.6em;
+	padding-bottom: 1.2em;
+	padding-top: 1em;
 }
-.About_Us_Mainpage a{
+#intro_bar a{
 	color:#083967;
 	text-decoration:none;
 }
-.About_Us_Mainpage a:hover{ color:#22bcb9;}
-
-.About_Us_Mainpage h2{
-	font-size: 1.5em;
-	padding-bottom: 1.5em;
-	padding-top: 1.5em;
+#intro_bar p {
+	font-size: 1em;
+	font-weight: normal;
+	line-height:1.22em;
+}
+.overview {
+	width: 32%;
+	float: left;
+}
+.overview h2{
+	margin-left:2em;
+}
+.overview p{
+	text-align: center;
 	margin-left: 2em;
-	font-weight: normal;
 }
-.About_Us_Mainpage p{
-	margin-left: 3em;
-	font-size: 1em;
-	font-weight: normal;
-	line-height:1.22em;
-}
-.middle{
+.program{
 	width: 32%;
 	float: left;
-	min-height: 10em;
-}
-.middle a{
-	color: #083967;
-	text-decoration: none;
 	display: inline-block;
 }
-.middle a:hover{ color: #22bcb9; }
-.middle h2{
-	font-size: 1.5em;
-	margin-left: 5em;
-	padding-top: 1.5em;
-	padding-bottom:1.5em;
+.program h2{
+	margin-left: 4em;
 }
-.middle p{
-	margin-left: 3em;
-	font-size: 1em;
-	line-height:1.22em;
-	font-weight: normal;
+.program p{
+	margin-left: 2em;
+	text-align: center;
 }
-.last{
+.contact {
 	width: 32%;
 	float: left;
-	min-height: 10em;
-}
-.last a{
-	color: #083967;
-	text-decoration:none;
 	display: inline-block;
 }
-.last a:hover{ color: #22bcb9; }
-.last h2{
-	font-size: 1.5em;
-	margin-left: 5em;
-	padding-top: 1.5em;
-	padding-bottom:1.5em;
+.contact h2 {
+	margin-left: 6em;
 }
-.last p{
-	margin-left: 3em;
-	font-size: 1em;
-	line-height:1.22em;
-	font-weight: normal;
+.contact p {
+	margin-left: 2.25em;
+	text-align: center;
 }
 #Content {
 	height: 120em;
 	float: left;
 	width: 90%;
-	margin-left: 1.5em;
+	margin-left: 4em;
 }
+#Content a {
+	color: #083967;
+	text-decoration:none;
+}
+#Content a:hover{ color: #22bcb9; }	
 #line1{
-	width: 98%;
+	border: 1px solid red;
+	width: 100%;
 	height: 35em;
 }
 /*sakshi*/
 .sakshi #imageContainer{
+	border: 1px solid red;
 	float:left;
-	margin-left:2em;
+	height: 5em;
+	margin-left:1em;
+/*
 	min-height: 50%;
+*/
 }
+/*
 .sakshi a{
-	color: #083967;
-	text-decoration:none;
+
 	display: inline-block;
 }
-.sakshi a:hover{ color: #22bcb9; }
+*/
+
 .sakshi{
 	float:left;
 	width: 34%;
