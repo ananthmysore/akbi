@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Kedage';
+  src: url('Kedage-n.ttf');
+ }
 #menu{ 
 	width:250px; 
 	background: #083967; 
@@ -24,11 +28,14 @@
 	color:#fff;
 	text-decoration:none;
 }
-#menu ul li a:hover,#menu ul li a.active,#menu ul li a.active{ color:#22bcb9;}
-#menu ul li.heading{ margin:0 0 5px 0;}
+#menu ul li a:hover,#menu ul li a.active,#menu ul li a.active{ color:#8B0000;}
+#menu ul li.heading {
+	margin:0 0 5px 0;
+
+}
 #menu ul li.last{ margin:0 0 1em 0;}
 #menu ul li.heading.last{ margin:0 0 1em 0;}
-#menu ul li.heading{font-size:1.2em; font-family: 'serif'; font-weight:normal; padding-bottom: 5px;}
+#menu ul li.heading{font-size:1.22em; font-family: 'Kedage'; font-weight:bolder; padding-bottom: 5px;}
 #menu ul li.heading a{font-size:1em;}
 
 #closeMenu{
@@ -50,24 +57,23 @@
 #header{
 	width: 85%;
 	margin-left: 6em;
-	padding:10px 0 20px 0;
+	padding:0 0 0 0;
 	border-bottom:2px solid #083967;
 }
 #header h1{
-	margin:0 0px 0 ;
-	padding:0;
-	font-size:3.45em;
+	font-size:3em;
 	color:#083967;
-	font-family: serif;
+	font-family: 'Kedage';
 	font-weight:normal;
-	display:block;
 	text-align:center;
 }
-#header h1 span{
-	font-size:0.35em;
+#header span{
+	font-size:1.22em;
 	display:block;
-	padding-top:10px;
-	text-align:center;
+	font-family: 'Kedage';
+	color:#8B0000;
+	text-align: center;
+	padding-bottom: 1em;
 }
 #intro_bar {
 	width: 85%;
@@ -77,7 +83,7 @@
 	float: left;
 	padding:0 0 0 0;
 }
-#intro_bar a:hover{ color:#22bcb9; }
+#intro_bar a:hover{ color:#8B0000; }
 #intro_bar h2 {
 	font-size: 1.6em;
 	padding-bottom: 1.2em;
@@ -93,7 +99,7 @@
 	line-height:1.22em;
 }
 .overview {
-	width: 32%;
+	width: 33%;
 	float: left;
 }
 .overview h2{
@@ -104,7 +110,7 @@
 	margin-left: 2em;
 }
 .program{
-	width: 32%;
+	width: 33%;
 	float: left;
 	display: inline-block;
 }
@@ -116,7 +122,7 @@
 	text-align: center;
 }
 .contact {
-	width: 32%;
+	width: 33%;
 	float: left;
 	display: inline-block;
 }
@@ -137,133 +143,156 @@
 	color: #083967;
 	text-decoration:none;
 }
-#Content a:hover{ color: #22bcb9; }	
+#content p {
+	font-size: 1.1em;
+	font-family:'Kedage';
+}
+	
+#Content a:hover{ color: #8B0000; }	
 #line1{
-	border: 1px solid red;
+	margin-left:1em;
 	width: 100%;
-	height: 35em;
+	height: 28em;
 }
 /*sakshi*/
 .sakshi #imageContainer{
-	border: 1px solid red;
-	float:left;
-	height: 5em;
-	margin-left:1em;
-/*
-	min-height: 50%;
-*/
+	height: 15em;
+	margin-left: 6em;
 }
-/*
-.sakshi a{
-
-	display: inline-block;
-}
-*/
-
 .sakshi{
 	float:left;
-	width: 34%;
-	height: 35em;
-	margin-left:8em;
+	width: 35%;
+	height: 28em;
+	margin-left:5em;
 	border-bottom: 2px solid #083967;
 	
 }
 .sakshi p{
-	margin-top: 8em;
-	margin-left: 1em;
-	font-size: 1em;
-	font-weight: normal;
+	display: inline-block;
+	text-align: center;
+	width: 90%;
+	
 }
 /*samvada*/
 .samvada #imageContainer{
 	float:right;
-	margin-right:2em;
-	margin-top:4em;
+	margin-right:4em;
+	margin-top:2em;
 }
-.samvada a{
-	color: #083967;
-	text-decoration:none;
-	display: inline-block;
-}
-.samvada a:hover{ color: #22bcb9; }
 .samvada{
-	float:left;
-	width: 32%;
-	height: 35em;
-	margin-left:16em;
-	border-bottom: 3px solid #083967;
+	float: right;
+	display: inline-block;
+	width: 35%;
+	height: 28em;
+	margin-right:6em;
+	border-bottom: 2px solid #083967;
 	
 }
 .samvada h3{
-	margin-left:2em;
-	margin-top: 17em;
+	display: inline-block;
+	font-family:'Kedage';
+	margin-left: 5em;
+	text-align: center;
+	margin-top: 3em;
 	font-size:1.2em;
 	
 }
 .samvada p{
+	width: 80%;
+	text-align: center;
 	margin-top: 1em;
 	margin-left: 2em;
-	font-size: 1.em;
-	font-weight: normal;
+}
+.samvada span {
+	margin-left: 12em;	
 }
 #line2 {
-	width: 98%;
-	height: 36em;
+	width: 100%;
+	height: 27em;
+	margin-left:1em;
 }
 /*sankramana*/
 .sankramana #imageContainer{
-	float:left;
-	height: 33em;
-	margin-top: 2em;
-	margin-left: 0;
-}
-.sankramana a{
-	color: #083967;
-	text-decoration:none;
 	display: inline-block;
 }
-.sankramana a:hover{ color: #22bcb9; }
 .sankramana{
 	float:left;
-	width: 32%;
-	height: 35em;
-	margin-left:8em;
-	border-bottom: 3px solid #083967;
+	width: 35%;
+	height: 26em;
+	margin-left:5em;
+	padding-top: 1.5em;
+	border-bottom: 2px solid #083967;
 }
 .sankramana p{
-	margin-top: 8em;
-	margin-left: 1em;
-	font-size: 1em;
-	font-weight: normal;
+	display: inline-block;
+	text-align: center;
+	margin-top: 1em;
+	width: 50%;
 }
 /*GandhiBazaarPatrike*/
 .gbp #imageContainer{
-	float:right;
-	margin-left:3em;
-	margin-top:2em;
+	margin-left:2em;
+	margin-top: 1em;
+	
 }
-.gbp a{
-	color: #083967;
-	text-decoration:none;
-	display: inline-block;
-}
-.gbp a:hover{ color: #22bcb9; }
 .gbp{
-	float:left;
-	width: 32%;
-	height: 35em;
-	margin-left:16em;
-	border-bottom: 3px solid #083967;
+	float: right;
+	display: inline-block;
+	width: 35%;
+	height: 27em;
+	margin-right:6em;
+	border-bottom: 2px solid #083967;
 	
 }
 .gbp p{ 	 
-	color:#083967;
-	margin-top: 8em;
+	width: 80%;
+	text-align: center;
+	margin-top: 1em;
 	margin-left: 2em;
-	font-size: 1em;
-	font-weight: normal;
 }
-
+#footer {
+	float: left;
+	width: 100%;
+	height: 13em;
+	margin-left:1em;
+}
+.hp {
+	display: block;
+	width: 18%;
+	float:left;
+	margin-top:1em;
+	height: 10em;
+	margin-left: 10em;
+}
+.hp #imageContainer {
+	height: 8em;
+	margin-top: 1em;
+	margin-left:1em;
+}
+.sas {
+	float:left;
+	display: inline-block;
+	margin-left:2em;
+	margin-top:1em;
+	width: 28%;
+}
+.sas #imageContainer {
+	height: 8em;
+	margin-top: 1em;
+	margin-left:0.5em;
+}
+.sriranga {
+	float: left;
+	display: inline-block;
+	margin-left:3em;
+	margin-top: 2em;
+	width: 12%;
+}
+.sriranga #imageContainer {
+	height: 8em;
+}
+	
+	
 
 	
 	
