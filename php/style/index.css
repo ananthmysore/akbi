@@ -144,8 +144,10 @@
 	text-decoration:none;
 }
 #content p {
-	font-size: 1.1em;
-	font-family:'Kedage';
+/*
+	font-size: 0.85em;
+	line-height: 0.75em;
+*/
 }
 	
 #Content a:hover{ color: #8B0000; }	
@@ -291,7 +293,111 @@
 .sriranga #imageContainer {
 	height: 8em;
 }
-	
+.mainpage {
+	min-height: 20em;
+	width: 100%;
+	clear: both;
+	float: left;
+}
+.mainpage .nav{
+	float: left;
+	width: 12%;
+	font-family:'Kedage';
+	min-height: 15em;
+	margin: 1em 2em 0 5em;
+}
+.mainpage .menu{
+	font-size: 1em;
+}
+.mainpage .menu li{
+	text-align: left;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 0.5em 0 0.5em 1em;
+	color: #3D3D3D;
+	font-variant: small-caps;
+}
+.mainpage .menu li a{
+	color: #083967;
+	font-size: 0.95em;
+	text-decoration: none;
+}
+.mainpage .menu li a:HOVER, .mainpage .menu li a.active{
+	color: #8B0000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.about{
+	display: inline-block;
+	float: left;
+	font-family:'kedage';
+	padding: 2em 1em 1em 1em;
+	font-size: 0.9em;
+	border-left: 1px solid #CCCCCC;
+	width: 68%;
+	color: #3D3D3D;
+	min-height: 48em;
+}
+.about p{
+	padding: 0em 1em 1em 0em;
+	text-align: justify;
+}
+.about .h1{
+	color: #483D8B;
+	font-size: 1em;
+	font-weight: bold;
+}
+.about ul{
+	margin: 0 0 1em 1em;
+}
+.about ul li {
+	padding:1em 1em 1em 1em;
+}
+.about ul li p {
+	margin-left: 2.3em;
+	width:2em;
+}
+.mainpage .page_title{
+	margin: 0 0 1em 0em;
+	padding-bottom: 0.5em;
+	font-size: 1.5em;
+	color: #083967;
+	width: 80%;
+	border-bottom: 1px solid #8B0000;	
+}
+.mainpage ul li a {
+	text-decoration: none;
+	font-family: 'sans serif';
+	color: #8B0000;
+}
+.col1 {
+	display: inline-block;
+	width: 15%;
+}
+.col1 img {
+	border: 1px solid black;
+}
+.col2 {
+	display: inline-block;
+	width: 15%;
+}
+.col2 img {
+	border: 1px solid black;
+}
+.col3 {
+	display: inline-block;
+	width: 15%;
+}
+.col3 img {
+	border: 1px solid black;
+}
+.col4 {
+	display: inline-block;
+	width: 15%;
+}
+.col4 img {
+	border: 1px solid black;
+}
+
 	
 
 	
