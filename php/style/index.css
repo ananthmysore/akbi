@@ -339,7 +339,9 @@
 }
 .about p{
 	padding: 0em 1em 1em 0em;
+/*
 	text-align: justify;
+*/
 }
 .about .h1{
 	color: #483D8B;
