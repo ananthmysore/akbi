@@ -79,6 +79,7 @@
 	width: 85%;
 	border-bottom: 2px solid #083967;
 	height: 15em;
+	font-family:'Kedage';
 	margin-left: 6em;
 	float: left;
 	padding:0 0 0 0;
@@ -95,9 +96,11 @@
 }
 #intro_bar p {
 	font-size: 1em;
+	color:#3D3D3D;
 	font-weight: normal;
 	line-height:1.22em;
 }
+#intro_bar p:hover { color:#8B0000; }
 .overview {
 	width: 33%;
 	float: left;
@@ -135,19 +138,20 @@
 }
 #Content {
 	height: 120em;
+	font-family: 'Kedage';
 	float: left;
 	width: 90%;
 	margin-left: 4em;
 }
+#Content p:hover { color:#8B0000; }
 #Content a {
 	color: #083967;
 	text-decoration:none;
 }
-#content p {
-/*
-	font-size: 0.85em;
-	line-height: 0.75em;
-*/
+#Content p {
+	font-size: 1em;
+	line-height: 1.22em;
+	color:#3D3D3D;
 }
 	
 #Content a:hover{ color: #8B0000; }	
@@ -194,11 +198,13 @@
 	display: inline-block;
 	font-family:'Kedage';
 	margin-left: 5em;
+	color: #3D3D3D;
 	text-align: center;
 	margin-top: 3em;
 	font-size:1.2em;
 	
 }
+.samvada h3:hover { color: #8B0000; }
 .samvada p{
 	width: 80%;
 	text-align: center;
@@ -331,7 +337,7 @@
 	float: left;
 	font-family:'kedage';
 	padding: 2em 1em 1em 1em;
-	font-size: 0.9em;
+	font-size: 1em;
 	border-left: 1px solid #CCCCCC;
 	width: 68%;
 	color: #3D3D3D;
@@ -399,8 +405,38 @@
 .col4 img {
 	border: 1px solid black;
 }
-
+.about TABLE {
+	margin-left: 1em;
+	margin-bottom: 3em;
+}
+.about TABLE a {
+/*
+	font-family:'Kedage';
+*/
+	font-size: 1.22em;
+	text-decoration: none;
+	color: #083967;
+	padding-right: 0.1em;
+}
+.about TABLE a:hover {
+	color: #8B0000;
+}
+.about table li {
+	list-style-type:disc;
+}
+.about TABLE li a { 
+	font-family:'Kedage';
+	font-size: 1em;
+	text-decoration: none;
+	color: #083967;
 	
+}
+.about #mainltr {
+	font-family:'Kedage';
+	font-size: 1.4em;
+	text-decoration: none;
+	color: #8B0000;
+}
 
 	
 	

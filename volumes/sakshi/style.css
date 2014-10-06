@@ -1,0 +1,380 @@
+#body {
+   margin:0px 5px 0px 5px;
+   padding:10px 20px 30px 20px;
+   border-width:0px 0px 0px 0px;
+   border-style:dotted none none none;
+   font-family:sans-serif;
+   font-size:80%;
+   background-color:white; 
+   color:black;
+   background-image:url('bg.gif');
+   background-repeat:repeat;
+   background-attachment:fixed;
+   background-position:0px 0px;
+}
+#body1 {
+	  background: #B61E3D url("images/bkgd.jpg");
+}
+
+#outer
+{
+   z-index: 2;
+   position: relative;
+   width: 82%;
+   border: solid 7px #fff;
+   background-color: #e5dcd2;
+   margin: 0 auto;
+}
+.divider1
+{
+   position: absolute;
+   height: 0px;
+   font-size:100%;
+   color:gray;
+   margin-top:0px 7% 0px 7%;
+   clear: both;
+}
+#div1 {
+   margin:0px 0px 0px 0px;
+   padding:10% 2px 10px 20px;
+   border-width:0px 0px 0px 0px;
+   border-style:none none none none;
+   font-size:100%;
+   color:yellow;
+   background-position:0px 0px;
+   clear: both;
+}
+#content
+{
+   padding: 0em 0em 0em 1.0em;
+}
+img.left
+{
+   position: relative;
+   float: left;
+   margin: 0em 1.8em 1.4em 0em;
+}
+#div2 {
+   margin:0px 300px 0px 0px;
+   padding:20px 20px 20px 20px;
+   border-width:0px 0px 0px 0px;
+   border-style:none none none none;
+   font-size:100%;
+   color:yellow;
+   background-color:black;
+   background-position:0px 0px;
+}
+p {
+   margin:0px 15px 10px 0px;
+   padding:0px 0px 15px 15px;
+   border-width:0px 0px 0px 0px;
+   border-style:none none none none;
+   background-image:none;
+   background-position:0 0;
+   color:black;
+   text-align:justify;
+   font-size: 11pt;
+   font-family: "georgia", "times new roman", serif;
+   color: #333333;
+}
+blockquote {
+   text-align:justify;
+   color:black;
+   font-size: 10pt;
+   font-family: "georgia", "times new roman", serif;
+   color: #333333;
+   padding-bottom:0px;
+   padding-top:0px;
+}
+blockquote img{
+   float:absolute;
+   padding-right:20%;
+   padding-left:20%;
+}
+.p{
+   color:black;
+   text-align:justify;
+   font-size: 12pt;
+   font-family: "georgia", "times new roman", serif;
+}
+.color{
+   background-color:#CDC0B0; 
+}
+img.rightimg {
+   float: right; margin: 0px 10px 10px 10px
+}
+img.leftimg {
+   float: left; margin-right: 10px
+}
+#footer
+{
+   position: relative;
+   height: 2.0em;
+   clear: both;
+   padding-top: 5.0em;
+   background: url('images/border2.gif') repeat-x 0em 2.5em;
+   font-size: 0.8em;
+}
+#footer .left
+{
+   position: absolute;
+   left: 2.0em;
+   bottom: 1.2em;
+}
+#footer .right
+{
+   position: absolute;
+   right: 2.0em;
+   bottom: 1.2em;
+}
+.brd{
+   border-style: groove; 
+   border-color: #8B6914; 
+}
+
+/*#letters{
+   font-family:Verdana,Arial,sans-serif;
+   font-size:1em;
+   font-weight:bold;
+   border-right:2px solid #666;
+   padding-bottom:10px;
+   padding-top:10px;
+   padding-left:2px;
+   margin-bottom:0.5em; 
+   margin-left:0px;
+   background-color:#CDC0B0;
+}
+#letters a:hover{
+   font-family:Verdana,Arial,sans-serif;
+   font-size:1em;
+   font-weight:bold;
+   background-color:#100800;
+   color:#CDC2B4;
+}
+#letters a {
+   font-family:Verdana,Arial,sans-serif;
+   font-size:1em;
+   font-weight:bold;
+   color:#CDC2B4;
+   color:#100800;
+}*/
+
+#navsite{
+   position:relative;
+   top:-20px;
+   border-right:0px solid #666;
+   padding:0px;
+   margin-bottom:0.5em; 
+    background-color:#BDAA9C; 
+}
+/*#headercolor {
+   background-color:#BDAA9C;
+}*/
+#navsite ul {
+   padding: 3px 1%;
+   margin-left: 0;
+   border-bottom: 4px solid #100800;
+   font: bold 14px Verdana, Helvetica, Arial, sans-serif;
+}
+#navsite ul li {
+   list-style: none;
+   margin-left: 0;
+   display: inline;
+}
+#navsite ul li a {
+   padding: 3px 0.5em;
+   margin-left: 0%;
+   border: 1px solid #625851;
+   border-bottom: none;
+   background: #BDAA9C;
+   text-decoration: none;
+}
+#navsite ul li a:link {
+   color: #100800;
+}
+#navsite ul li a:visited {
+   color: #101010;
+}
+#navsite ul li a:link:hover, #navsite ul li a:visited:hover {
+   color: #BDAA9C;
+   background: #101010;
+   border-color: #100800;
+}
+#navsite ul li a#current {
+   color: #BDAA9C;
+   background: #101010;
+   border-bottom: 1px solid #101010;
+}
+#navsite #current a {
+   color: blue;
+   background: white;
+   border-bottom: 1px solid #101010;
+}
+/*header image properties*/
+.siteimg p {   /* This is the large text in the site img div */
+   margin: 0 0 0 10px; /* removed usual top and bottom margin from paragraph to avoid layout breaking */
+   padding-left: 10px;
+   padding-top: 90px;
+   font-family: Georgia, serif;
+   font-size: 1.45em; 
+   line-height: 1.05em; 
+   font-weight: normal; 
+   letter-spacing: -0.05em; 
+}
+.siteimg {   /* Large Site Image */
+   width: 100%; /* Suits an 800x600 page, allowing for scrollbar */
+   height: 143px;
+   background: url('images/siteimages.jpg') #fff; /* Light Grey */	
+}
+/*nav bar style starts for words*/
+a:link, a:visited {
+   color: black; 
+}
+ul.nav>li{
+   position: relative;
+   padding: 2px 6px;
+}
+ul.nav li:hover,
+.nav ul li a:hover{
+   background-color: #CDC2B4;
+   color: #E6DED5;
+}
+.nav a{
+	text-decoration: none;
+}
+
+#colour{
+  color: #353F3C;
+}
+
+#space
+{
+	line-height: 180%;
+}
+#space a:hover
+{
+	text-decoration:none;
+}
+
+#letrcolr a{
+	color:#58716B;
+   	font-size:110%;
+}
+#letrcolr a:hover
+{
+ 	text-decoration:none;
+	color:#2E4D4D;
+}
+#mainltr{
+	color:#2E4D4D;
+	font-size:150%;
+}
+
+#back2top a{
+	color:black;
+	font-size:90%;
+}
+
+#back2top a:hover
+{
+	color:black;
+ 	text-decoration:none;
+}
+
+#authname a
+{
+ 	color:#4F110F;	
+ 	font-size:90%;
+	font-weight:bold;
+}
+
+#authname a:hover
+{
+ 	text-decoration:none;
+}
+
+#authadd
+{
+ 	color:red;	
+ 	font-size:80%;
+}
+#samputa
+{
+ color:#A46D3D; 
+}
+
+#artname
+{
+	color:#37748C;
+	font-size:80%;
+	font-weight:bold;
+}
+
+#artname a
+{
+	font-size:80%;
+}
+
+#artname a:hover
+{
+	text-decoration:none;
+}
+
+#pageno
+{
+	color:black;
+	font-size:80%;
+}
+#
+{
+	color:black;
+	font-size:80%;
+}
+#authnamevol
+{
+	color:#4F110F;
+	font-size:82%;
+	font-weight:bold;
+}
+#authmain
+{
+	color:#4F110F;
+	font-weight:bold;
+}
+#sam
+{
+ 	color:#A46D3D; 
+	font-size:82%; 
+}
+
+#yr
+{
+	color:#81844C;
+/* #B38659 */
+}
+#yrart{
+	color:#37748C;
+	font-size:82%;
+	font-weight:bold;
+}
+#yrart a:hover{
+	text-decoration:none;	
+}
+#yrauthr
+{
+	font-size:82%;
+	color:#4F110F;
+	font-weight:bold;
+}
+#yrauthr a:hover
+{
+	text-decoration:none;	
+}
+#name
+{
+	font-size:95%;
+ 	color:black; 
+
+	line-height: 2.5em; 
+}
+/*ends here*/
