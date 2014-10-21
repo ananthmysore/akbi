@@ -1,5 +1,4 @@
 .kgv_about{
-	border: 1px solid red;
 	display: inline-block;
 	float: left;
 	font-family:'kedage';
@@ -44,4 +43,41 @@
 	width: 10em;
 	float: right;
 	margin-right: 1em;
+}
+.center {
+	width:100%;
+	text-align: left;
+	margin-left:0em;
+}
+.center_bold {
+	width:100%;
+	margin-left:0em;
+	font-weight:bold;
+	text-align: center;
+}
+.center_bold h1 {
+	font-size: 2em;
+}
+.center_bold h2 {
+	font-size: 1em;
+	font-weight:bold;
+}
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
 }
