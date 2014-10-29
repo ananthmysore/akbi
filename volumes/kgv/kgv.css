@@ -1,11 +1,12 @@
 .kgv_about{
+	border: 1px solid red;
 	display: inline-block;
 	float: left;
 	font-family:'kedage';
 	padding: 2em 1em 1em 4em;
 	font-size: 1em;
 	border-left: 1px solid #CCCCCC;
-	width: 50%;
+	width: 100%;
 	color: #3D3D3D;
 	min-height: 48em;
 }
@@ -88,7 +89,7 @@
 .node circle {
   fill: #fff;
   stroke: steelblue;
-  stroke-width: 1.5px;
+  stroke-width: 2px;
 }
 
 .node text {
@@ -98,5 +99,5 @@
 .link {
   fill: none;
   stroke: #ccc;
-  stroke-width: 1.5px;
+  stroke-width: 2px;
 }
